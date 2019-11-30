@@ -1,0 +1,6 @@
+.deploy*/
+node_modules/
+public/
+db.json
+package-lock.json
+*.log

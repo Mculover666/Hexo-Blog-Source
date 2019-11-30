@@ -1,0 +1,36 @@
+clone_depth: 5
+
+environment:
+  access_token:
+    secure: FY971gfocfgWq6pGgIzC1qyZLqXd0hsukuK3hsktaT37bPYdgpSaYO3EzYPrIltX
+
+install:
+  - node --version
+  - npm --version
+  - npm install hexo-cli -g
+  - npm install
+  - npm i -S hexo-prism-plugin
+  - npm i --save hexo-wordcount
+  - npm install hexo-abbrlink --save
+  - npm install hexo-generator-sitemap --save
+  - npm install hexo-generator-baidu-sitemap --save
+
+build_script:
+  - hexo clean
+  - hexo g
+
+artifacts:
+  - path: public
+
+on_success:
+  - git config --global credential.helper store
+  - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
+  - git config --global user.email "%GIT_USER_EMAIL%"
+  - git config --global user.name "%GIT_USER_NAME%"
+  - git clone --depth 5 -q --branch=%TARGET_BRANCH% %STATIC_SITE_REPO% %TEMP%\static-site
+  - cd %TEMP%\static-site
+  - del * /f /q
+  - for /d %%p IN (*) do rmdir "%%p" /s /q
+  - SETLOCAL EnableDelayedExpansion & robocopy "%APPVEYOR_BUILD_FOLDER%\public" "%TEMP%\static-site" /e & IF !ERRORLEVEL! EQU 1 (exit 0) ELSE (IF !ERRORLEVEL! EQU 3 (exit 0) ELSE (exit 1))
+  - git add -A
+  - if "%APPVEYOR_REPO_BRANCH%"=="master" if not defined APPVEYOR_PULL_REQUEST_NUMBER (git diff --quiet --exit-code --cached || git commit -m "Update Static Site" && git push origin %TARGET_BRANCH% && appveyor AddMessage "Static Site Updated")
