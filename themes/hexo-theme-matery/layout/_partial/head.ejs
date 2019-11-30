@@ -29,7 +29,13 @@
 
     // keywords.
     var keyWords = config.keywords ? config.keywords : config.title;
-    keyWords = title ? title  + ', ' + keyWords : keyWords;
+
+    if (page.keywords){
+        keyWords = page.keywords;
+    }
+    else {
+        keyWords = title ? title  + ', ' + keyWords : keyWords;
+    }
 
     // description.
     var description = null;

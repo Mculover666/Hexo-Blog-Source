@@ -5,8 +5,8 @@
 # Site
 title: Mculover666
 subtitle: 嵌入式软硬件
-description:  一个喜欢玩板子的小码农
-keywords: 嵌入式软件 C/C++ ARM Linux 物联网IoT
+description:  嵌入式 STM32 物联网领域的教程及精彩内容分享
+keywords: STM32CubeMX 嵌入式 Linux
 author: Mculover666
 language: zh-CN
 timezone:
