@@ -105,10 +105,12 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-matery
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: 
+    github: https://github.com/Mculover666/mculover666.github.io.git,master
+#    coding: https://git.dev.tencent.com/mculover666/mculover666.git,master
+
 # Local search
 search:
   path: search.xml
