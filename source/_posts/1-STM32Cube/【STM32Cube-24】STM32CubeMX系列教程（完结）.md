@@ -57,7 +57,7 @@ summary: 秒变 STM32 大神，STM32CubeMX你值得拥有！
 - [【STM32Cube_20】使用DAC输出任意指定电压值](http://www.mculover666.cn/posts/2707806886/)
 - [【STM32Cube-21】使用ADC读取电压值](http://www.mculover666.cn/posts/862377868/)
 - [【STM32Cube-22】在SD卡上移植FATFS文件系统](http://www.mculover666.cn/posts/2214138023/)
-- [【STM32Cube-23】使用 USART 接收GPS数据并解析]()
+- [【STM32Cube-23】使用 USART 接收GPS数据并解析](http://www.mculover666.cn/posts/3463670498/)
 
 
 
