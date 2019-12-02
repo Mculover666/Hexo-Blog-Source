@@ -15,39 +15,39 @@ date: 2019-08-02 15:04:56
 - 开发板
 首先需要准备一个开发板，这里我准备的是STM32L4的开发板（BearPi）：
 
-![mark](http://mculover666.cn/image/20190806/9uiPTi5odYSj.png?imageslim)
+![](http://mculover666.cn/image/20190806/9uiPTi5odYSj.png?imageslim)
 
 - 蜂鸣器
 
 这里我直接使用扩展板上的蜂鸣器，如图：
 
-![mark](http://mculover666.cn/image/20190807/egsTj4DhhwM8.png?imageslim)
+![](http://mculover666.cn/image/20190807/egsTj4DhhwM8.png?imageslim)
 
 蜂鸣器的原理图如下：
 
-![mark](http://mculover666.cn/image/20190807/kjUo6ctmGGXS.png?imageslim)
+![](http://mculover666.cn/image/20190807/kjUo6ctmGGXS.png?imageslim)
 
 ## 软件准备
 - 需要安装好Keil - MDK及芯片对应的包，以便编译和下载生成的代码；
 
 >Keil MDK和串口助手Serial Port Utility 的安装包都可以**在文末关注公众号获取**，回复关键字获取相应的安装包：
 
-![mark](http://mculover666.cn/image/20190814/gubaOwmETp1w.png?imageslim)
+![](http://mculover666.cn/image/20190814/gubaOwmETp1w.png?imageslim)
 
 # 2.生成MDK工程
 ## 选择芯片型号
 打开STM32CubeMX，打开MCU选择器：
-![mark](http://mculover666.cn/image/20190806/gBP6glmUSH80.png?imageslim)
+![](http://mculover666.cn/image/20190806/gBP6glmUSH80.png?imageslim)
 
 搜索并选中芯片`STM32L431RCT6`:
-![mark](http://mculover666.cn/image/20190806/gnyHwdl53uVD.png?imageslim)
+![](http://mculover666.cn/image/20190806/gnyHwdl53uVD.png?imageslim)
 
 ## 配置时钟源
 - 如果选择使用外部高速时钟（HSE），则需要在System Core中配置RCC；
 - 如果使用默认内部时钟（HSI），这一步可以略过；
 
 这里我都使用外部时钟：
-![mark](http://mculover666.cn/image/20190806/k593lGGb5tlW.png?imageslim)
+![](http://mculover666.cn/image/20190806/k593lGGb5tlW.png?imageslim)
 
 ## 配置通用定时器TIM16
 
@@ -80,29 +80,30 @@ TIM15、TIM16 只支持向上（递增）计数方式；
 接下来开始配置TIM16定时器的PWM功能：
 
 首先选择`TIM`，选择通道1的功能，默认的CH1是`PA6`引脚，但是开发板上是与 PB8 连接的，所以在右边将PB8配置为`TIM16_CH1`：
-![mark](http://mculover666.cn/image/20190807/3Ru6wXY95H7s.png?imageslim)
+![](http://mculover666.cn/image/20190807/3Ru6wXY95H7s.png?imageslim)
 
 
 接下来是对TIM16的参数设置，参照数据手册中的RCC时钟树，TIM16内部时钟来源是`PCLK2 = 80Mhz`，我们的目的是产生`1khz`的PWM，所以预分频系数设置为`80-1`，自动重载值为`1000-1`，得到的计时器更新中断频率即为`80000000/80/1000 = 1000 Hz = 1K Hz`：
-![mark](http://mculover666.cn/image/20190807/FsrFLXtFVJBc.png?imageslim)
+
+![](http://mculover666.cn/blog/20191202/K3Biuuw5VTzB.png?imageslim)
 
 其余的一些设置保持默认即可，最后配置PWM占空比：
-![mark](http://mculover666.cn/image/20190807/kVj0GfgtTFw9.png?imageslim)
+![](http://mculover666.cn/image/20190807/kVj0GfgtTFw9.png?imageslim)
 
 ## 配置时钟树
 STM32L4的最高主频到80M，所以配置PLL，最后使`HCLK = 80Mhz`即可：
-![mark](http://mculover666.cn/image/20190806/1TQg7frjRpVr.png?imageslim)
+![](http://mculover666.cn/image/20190806/1TQg7frjRpVr.png?imageslim)
 
 ## 生成工程设置
-![mark](http://mculover666.cn/image/20190807/UibRvxrbe4JC.png?imageslim)
+![](http://mculover666.cn/image/20190807/UibRvxrbe4JC.png?imageslim)
 
 ## 代码生成设置
 最后设置生成独立的初始化文件：
-![mark](http://mculover666.cn/image/20190806/T6WvSK6Dfpts.png?imageslim)
+![](http://mculover666.cn/image/20190806/T6WvSK6Dfpts.png?imageslim)
 
 ## 生成代码
 点击`GENERATE CODE`即可生成MDK-V5工程：
-![mark](http://mculover666.cn/image/20190806/s0jGhLBWW6Cm.png?imageslim)
+![](http://mculover666.cn/image/20190806/s0jGhLBWW6Cm.png?imageslim)
 
 # 3. 在MDK中编写、编译、下载用户代码
 ## 启动定时器并产生PWM
@@ -124,4 +125,4 @@ while (1)
 
 **<font color="#FF0000">更多精彩文章及资源，请关注我的微信公众号：『mculover666』。</font>**
 
-![mark](http://mculover666.cn/image/20190814/NQqt1eRxrl1K.png?imageslim)
+![](http://mculover666.cn/image/20190814/NQqt1eRxrl1K.png?imageslim)
