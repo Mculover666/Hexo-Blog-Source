@@ -56,6 +56,14 @@ date: 2019-07-25 10:00:56
 
 ![mark](http://mculover666.cn/image/20190813/ClKDFmVJYceI.png?imageslim)
 
+给PC13引脚设置一个user_label:
+
+![](http://mculover666.cn/blog/20191203/Xs7BxveXoyYs.png?imageslim)
+
+>这里给PC13引脚添加一个user_label后，cubemx软件会在`main.h`文件中添加一个宏定义，如图，我们可以使用`LED_GPIO_Port`, `LED_Pin`来表示这个引脚，提高了程序的可移植性。如果没有该user_label，就需要使用`GPIOC`，`GPIO_PIN_13` 来表示这个引脚。
+
+![](http://mculover666.cn/blog/20191203/fvPWgmNK4NU7.png?imageslim)
+
 ## 配置按键的GPIO引脚
 查看小熊派开发板的原理图，如下：
 
