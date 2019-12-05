@@ -42,8 +42,8 @@ menu:
     url: /categories
     icon: fas fa-bookmark
   资源下载:
-    url: /friends
-    icon: fas fa-address-book
+    url: /download
+    icon: fas fa-download
 
 
 # Website start time.

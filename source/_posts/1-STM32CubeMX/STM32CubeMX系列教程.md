@@ -5,7 +5,7 @@ tags: STM32CubeMX
 categories: STM32CubeMX
 top: true
 abbrlink: 578764034
-date: 2019-08-14 09:48:56
+date: 2019-12-05 20:48:56
 summary: 秒变 STM32 大神，STM32CubeMX你值得拥有！
 ---
 
@@ -57,3 +57,5 @@ summary: 秒变 STM32 大神，STM32CubeMX你值得拥有！
 - [STM32CubeMX-21 | 使用ADC读取电压值](http://www.mculover666.cn/posts/862377868/)
 - [STM32CubeMX-22 | 在SD卡上移植FATFS文件系统](http://www.mculover666.cn/posts/2214138023/)
 - [STM32CubeMX-23 | 使用 USART 接收GPS数据并解析](http://www.mculover666.cn/posts/3463670498/)
+- [STM32CubeMX-24 | 使用通用定时器产生PWM驱动舵机](http://www.mculover666.cn/posts/933841213/)
+
