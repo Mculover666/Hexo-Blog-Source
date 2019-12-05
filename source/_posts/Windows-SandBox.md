@@ -6,7 +6,6 @@ categories: 工具推荐
 abbrlink: 2291178417
 date: 2019-11-30 21:00:56
 summary: 拥有一个秒启动的Win10环境
-abbrlink: 2291178417
 ---
 
 # Windows SandBox
