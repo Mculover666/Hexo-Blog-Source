@@ -59,4 +59,5 @@ summary: 秒变 STM32 大神，STM32CubeMX你值得拥有！
 - [STM32CubeMX-23 | 使用 USART 接收GPS数据并解析](http://www.mculover666.cn/posts/3463670498/)
 - [STM32CubeMX-24 | 使用通用定时器产生PWM驱动舵机](http://www.mculover666.cn/posts/933841213/)
 - [STM32CubeMX-25 | 使用硬件I2C驱动OLED(SSD1306)](http://www.mculover666.cn/posts/390108705/)
+- [STM32CubeMX-26 | 使用硬件I2C读取温湿度传感器数据（HTS221）](http://www.mculover666.cn/posts/4097081462/)
 
