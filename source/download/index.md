@@ -2,6 +2,7 @@
 title: 不限速下载站
 type: download
 toc: false
+comment: false
 date: 2020-02-04 19:53:18
 ---
 
@@ -25,7 +26,7 @@ date: 2020-02-04 19:53:18
 
 ![](http://mculover666.cn/image/20190814/NQqt1eRxrl1K.png?imageslim)
 
-# <center><i class="fa-fw fas fa-book-open"></i>  资源目录</center>
+# <center><i class="fa-fw fas fa-book-open"></i>  软件资源</center>
 
 ## <center>Keil-MDK</center>
 
@@ -75,7 +76,7 @@ date: 2020-02-04 19:53:18
 
 - [STM32CubeMX系列教程](http://www.mculover666.cn/posts/578764034/)
 
-## <center>Quartus(Intel FPGA)</center>
+## <center>Quartus II(Intel FPGA)</center>
 
 >资源关键词：<font color="blue">**Quartus**</font>
 
@@ -91,18 +92,19 @@ date: 2020-02-04 19:53:18
 - [【FPGA入门教程】（二）FPGA学习路线及开发流程](https://blog.csdn.net/Mculover666/article/details/80650037)
 - [【FPGA入门教程】（三） Quartus II 13.0软件安装及激活](https://blog.csdn.net/Mculover666/article/details/80650040)
 
+## <center>Arduino IDE</center>
 
-## <center>Vivado(Xilinx FPGA)</center>
+>资源关键词：<font color="blue">**Arduino**</font>
 
->资源关键词：<font color="blue">**Vivado**</font>
+进入链接后位于 Arduino 目录下，选择需要的资源进行下载：
 
-进入链接后位于 Vivado 目录下，选择需要的资源进行下载：
-
-- Xilinx_Vivado_SDK_Web_2018.1_0405_1_Win64.exe
+- arduino-1.8.10-windows.exe
 
 ## <center>Matlab</center>
 
 >资源关键词：<font color="blue">**Matlab**</font>
+
+进入链接后位于 Matlab 目录下，选择需要的资源进行下载：
 
 - MATLAB 2018a_win64.zip
 
@@ -110,24 +112,50 @@ date: 2020-02-04 19:53:18
 
 >资源关键词：<font color="blue">**Altium**</font>
 
-## <center>Cadence/Allero(PCB)</center>
+## <center>Cadence/Allegro(PCB)</center>
 
 >资源关键词：<font color="blue">**Cadence**</font>
 
+进入链接后位于 Cadence 目录下，选择需要的资源进行下载：
+
+- 阿里狗破戒大师
+  - AleegoCrackMasterV3.1.0.zip
+- Cadence SPB OrCAD Allegro 17.2-2016 吴川斌的博客独家版
+  - 
+  - 
+
+参考安装教程：
+
+- [阿狸狗破戒大师-为攻城狮快乐的拉线而生](http://aligou.mr-wu.cn/#fourthPage)
 
 ## <center>实用小工具</center>
 
 >资源关键词：<font color="blue">**小工具**</font>
 
+进入链接后位于 小工具 目录下，选择需要的资源进行下载：
+
+- 友善串口助手
+  - 友善串口助手.exe
+- 山外多功能串口助手（波形显示）
+  - 山外串口助手.zip
+- QCOM串口助手（通信模组调试）
+  - QCOM_V1.6.exe
+- 网络调试助手
+  - sockettoolv25.exe
+  - NetAssist.exe
+  - tcp调试助手.zip
+- 字符图片取模软件
+  - Image2Lcd 2.9.zip
+  - PCtoLCD2002.zip
+- TFTP传输工具
+  - Tftpd64.zip
+
+# <center><i class="fa-fw fas fa-question"></i> 遇到问题</center>
+
+如果你在本下载站下载资源时遇到问题，或者对资源有疑问，或者有新的资源分享，又或是对本站的建议，都可以加入博主的QQ交流群『<font color="blue">**AIoT实验室**</font>』：
+
+![AIoT-Lab](http://mculover666.cn/blog/20200204/M0Lwi8ChUI4a.jpg?imageslim)
 
 # <center><i class="fa-fw fas fa-blog"></i> 更新日志</center>
 
 - 2020/2/4：不限速下载站正式上线
-
-叮mo-[嘿哈]~请查收Mculover666分享给你的文件！
-
-取件链接：https://c-t.work/s/0f841fdc78ac4d
-
-下载密码：20200204
-
-温馨提示，复制取件链接至PC端访问，效果更佳哦~
