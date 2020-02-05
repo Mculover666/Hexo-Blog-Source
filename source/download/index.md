@@ -185,9 +185,21 @@ date: 2020-02-05 08:00:00
 - [【玩转嵌入式屏幕显示】（四）TFT-LCD屏幕显示字符（使用PCtoLCD2002取模）](https://blog.csdn.net/Mculover666/article/details/95615030)
 - [【玩转嵌入式屏幕显示】（五）TFT-LCD屏幕显示图片（使用Image2LCD取模）](https://blog.csdn.net/mculover666/article/details/95727736)
 
+# <center><i class="fa-fw fas fa-question"></i> 提交资源</center>
+
+有更好的资源分享？
+
+呐，点击此链接即可提交资源：[不限速下载站资源提交](https://shimo.im/forms/jxxJDpQX8TCJgvp6/fill)。
+
+<font color="green">诚挚感谢以下分享资源的小伙伴**</font>：
+
+
+
+
+
 # <center><i class="fa-fw fas fa-question"></i> 遇到问题</center>
 
-如果你在本下载站下载资源时遇到问题，或者对资源有疑问，或者有新的资源分享，又或是对本站的建议，都可以加入博主的QQ交流群『<font color="blue">**AIoT实验室**</font>』：
+如果你在本下载站下载资源时遇到问题，或者对资源有疑问，又或是对本站的建议，都可以加入博主的QQ交流群『<font color="blue">**AIoT实验室**</font>』：
 
 ![AIoT-Lab](http://mculover666.cn/blog/20200204/M0Lwi8ChUI4a.jpg?imageslim)
 
