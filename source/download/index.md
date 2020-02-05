@@ -3,14 +3,14 @@ title: 不限速下载站
 type: download
 toc: false
 comment: false
-date: 2020-02-04 19:53:18
+date: 2020-02-05 08:00:00
 ---
 
 # <center><i class="far fa-heart fa-x"></i>  建站初衷</center>
 
 博主深受xx网盘之痛苦，就像单手开着法拉利却被限速40km/h的那种痛苦，遂揭竿而起，自费建立起“不限速下载站”，正如其名：
 
-不限速下载站致力于为开发者提供免费！不限速！的下载服务，下载速度只取决于你的网络！
+不限速下载站致力于为开发者提供免费！不限速！的下载服务，下载速度只取决于你的网络！经多级实际测试，下载速度在5MB/s - 10MB/s范围。
 
 >声明：本站提供的资源全部来源于网络，博主收集整理仅为方便开发者学习使用，<font color="green">**不可用于商业用途！请支持正版！**</font>如有侵权，请联系博主删除(2412828003@qq.com)。
 
@@ -92,6 +92,56 @@ date: 2020-02-04 19:53:18
 - [【FPGA入门教程】（二）FPGA学习路线及开发流程](https://blog.csdn.net/Mculover666/article/details/80650037)
 - [【FPGA入门教程】（三） Quartus II 13.0软件安装及激活](https://blog.csdn.net/Mculover666/article/details/80650040)
 
+## <center>gcc 工具链</center>
+
+>资源关键词：<font color="blue">**gcc**</font>
+
+进入链接后位于 gcc-toolchains 目录下，选择需要的资源进行下载：
+
+- gcc工具链（Windows）
+  - MinGW64.zip
+- arm-linux-gcc工具链（Linux）
+  - arm-linux-gcc-4.4.3-20100728.tar.gz
+- gcc-arm-none-eabi工具链（STM32开发）
+  - gcc-arm-none-eabi-7-2018-q2-update-linux.tar.bz2(Linux系统)
+  - gcc-arm-none-eabi-7-2018-q2-update-win32.zip(Windows系统)
+
+参考安装教程：
+
+- [在Windows上使用Mingw-W64进行C/C++开发（gcc工具链）](https://blog.csdn.net/Mculover666/article/details/89844460)
+- [安装和使用arm-linux-gcc交叉编译工具链开发S3C2440](https://blog.csdn.net/Mculover666/article/details/88044790)
+- [Linux下开发stm32（一）| 使用gcc-arm-none-eabi工具链编译](https://blog.csdn.net/Mculover666/article/details/84888539)
+
+## <center>Altium(PCB)</center>
+
+>资源关键词：<font color="blue">**Altium**</font>
+
+进入链接后位于 Altium 目录下，选择需要的资源进行下载：
+
+- AD9.4版本（最稳定）
+  - AD9.4.rar
+- AD19（推荐）
+  - AD19.zip
+
+## <center>Cadence/Allegro(PCB)</center>
+
+>资源关键词：<font color="blue">**Cadence**</font>
+
+进入链接后位于 Cadence 目录下，选择需要的资源进行下载：
+
+- 阿里狗破戒大师
+  - AleegoCrackMasterV3.1.0.zip
+- Cadence SPB OrCAD Allegro 16.6-2016 吴川斌的博客独家版
+  - Cadence SPB 16.6.ooxx
+  - Hotfix_SPB16.60.114_wint_1of1.exe
+- Cadence SPB OrCAD Allegro 17.2-2016 吴川斌的博客独家版（推荐）
+  - Cadence_SPB_17.2-2016_www.mr-wu.cn.7z
+  - Hotfix_SPB17.20.058_wint_1of1.exe
+
+参考安装教程：
+
+- [阿狸狗破戒大师-为攻城狮快乐的拉线而生](http://aligou.mr-wu.cn/#fourthPage)
+
 ## <center>Arduino IDE</center>
 
 >资源关键词：<font color="blue">**Arduino**</font>
@@ -107,26 +157,6 @@ date: 2020-02-04 19:53:18
 进入链接后位于 Matlab 目录下，选择需要的资源进行下载：
 
 - MATLAB 2018a_win64.zip
-
-## <center>Altium(PCB)</center>
-
->资源关键词：<font color="blue">**Altium**</font>
-
-## <center>Cadence/Allegro(PCB)</center>
-
->资源关键词：<font color="blue">**Cadence**</font>
-
-进入链接后位于 Cadence 目录下，选择需要的资源进行下载：
-
-- 阿里狗破戒大师
-  - AleegoCrackMasterV3.1.0.zip
-- Cadence SPB OrCAD Allegro 17.2-2016 吴川斌的博客独家版
-  - 
-  - 
-
-参考安装教程：
-
-- [阿狸狗破戒大师-为攻城狮快乐的拉线而生](http://aligou.mr-wu.cn/#fourthPage)
 
 ## <center>实用小工具</center>
 
@@ -150,6 +180,11 @@ date: 2020-02-04 19:53:18
 - TFTP传输工具
   - Tftpd64.zip
 
+参考使用教程：
+
+- [【玩转嵌入式屏幕显示】（四）TFT-LCD屏幕显示字符（使用PCtoLCD2002取模）](https://blog.csdn.net/Mculover666/article/details/95615030)
+- [【玩转嵌入式屏幕显示】（五）TFT-LCD屏幕显示图片（使用Image2LCD取模）](https://blog.csdn.net/mculover666/article/details/95727736)
+
 # <center><i class="fa-fw fas fa-question"></i> 遇到问题</center>
 
 如果你在本下载站下载资源时遇到问题，或者对资源有疑问，或者有新的资源分享，又或是对本站的建议，都可以加入博主的QQ交流群『<font color="blue">**AIoT实验室**</font>』：
@@ -158,4 +193,4 @@ date: 2020-02-04 19:53:18
 
 # <center><i class="fa-fw fas fa-blog"></i> 更新日志</center>
 
-- 2020/2/4：不限速下载站正式上线
+- 2020/2/5：不限速下载站正式上线
