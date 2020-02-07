@@ -10,19 +10,17 @@ date: 2020-02-05 08:00:00
 
 博主深受xx网盘之痛苦，就像单手开着法拉利却被限速40km/h的那种痛苦，遂揭竿而起，自费建立起“不限速下载站”，正如其名：
 
-不限速下载站致力于为开发者提供免费！不限速！的下载服务，下载速度只取决于你的网络！经多级实际测试，下载速度在5MB/s - 10MB/s范围。
+不限速下载站致力于为开发者提供免费！不限速！的下载服务，下载速度只取决于你的网络！经多地实际测试，下载速度在5MB/s - 10MB/s范围。
 
 >声明：本站提供的资源全部来源于网络，博主收集整理仅为方便开发者学习使用，<font color="green">**不可用于商业用途！请支持正版！**</font>如有侵权，请联系博主删除(2412828003@qq.com)。
 
 # <center><i class="fas fa-cloud-download-alt fa-x"></i> 下载说明</center>
 
-因为资源链接需要不断更新，博主利用了公众号的**关键词回复功能**，方便资源链接及时修改！
-
 ① 微信扫描下方二维码，关注公众号『<font color="blue">**Mculover666**</font>』
 
-② 进入公众号，发送资源对应的关键词即可收到下载链接
+② 进入公众号，发送关键词 <font color="green">**密码**</font> 即可收到取件密码
 
-③ 每个下载链接都有最大下载次数，到达后我会更换新的链接，所以切勿直接收藏链接
+③ 每个下载链接都有最大下载次数，到达后我会更换新的链接和密码，所以切勿直接收藏链接
 
 ![](http://mculover666.cn/image/20190814/NQqt1eRxrl1K.png?imageslim)
 
@@ -30,7 +28,7 @@ date: 2020-02-05 08:00:00
 
 ## <center>Keil-MDK</center>
 
->资源关键词：<font color="blue">**MDK**</font>
+>下载入口：<font color="blue">**[MDK入口链接](https://c-t.work/s/7b5702e4592145 )**</font>
 
 进入链接后位于 Keil-MDK 目录下，选择需要的资源进行下载：
 
@@ -38,8 +36,6 @@ date: 2020-02-05 08:00:00
   - MDK524a.exe
   - MDK527.exe
   - MDK528.exe(推荐)
-- 注册机(2032)
-  - keygen_new(2032).rar
 - 仿Sublime主题
   - Keil Sublime Theme.zip
 - 芯片包
@@ -59,7 +55,7 @@ date: 2020-02-05 08:00:00
 
 ## <center>STM32CubeMX</center>
 
->资源关键词：<font color="blue">**STM32CubeMX**</font>
+>下载入口：<font color="blue">**[STM32CubeMX入口链接](https://c-t.work/s/01299d2be3994b)**</font>
 
 进入链接后位于 STM32CubeMX 目录下，选择需要的资源进行下载：
 
@@ -78,7 +74,7 @@ date: 2020-02-05 08:00:00
 
 ## <center>Quartus II(Intel FPGA)</center>
 
->资源关键词：<font color="blue">**Quartus**</font>
+>下载入口：<font color="blue">**[Quartus入口链接](https://c-t.work/s/bfb5ddb03f0843)**</font>
 
 进入链接后位于 Quartus 目录下，选择需要的资源进行下载：
 
@@ -94,7 +90,7 @@ date: 2020-02-05 08:00:00
 
 ## <center>gcc 工具链</center>
 
->资源关键词：<font color="blue">**gcc**</font>
+>下载入口：<font color="blue">**[gcc入口链接](https://c-t.work/s/4f8df085b5f542)**</font>
 
 进入链接后位于 gcc-toolchains 目录下，选择需要的资源进行下载：
 
@@ -114,7 +110,7 @@ date: 2020-02-05 08:00:00
 
 ## <center>Altium(PCB)</center>
 
->资源关键词：<font color="blue">**Altium**</font>
+>下载入口：<font color="blue">**[Alitum入口链接](https://c-t.work/s/e2550cb17d1344)**</font>
 
 进入链接后位于 Altium 目录下，选择需要的资源进行下载：
 
@@ -125,7 +121,7 @@ date: 2020-02-05 08:00:00
 
 ## <center>Cadence/Allegro(PCB)</center>
 
->资源关键词：<font color="blue">**Cadence**</font>
+>下载入口：<font color="blue">**[Cadence入口链接](https://c-t.work/s/325dc7ff34fa4a)**</font>
 
 进入链接后位于 Cadence 目录下，选择需要的资源进行下载：
 
@@ -144,7 +140,7 @@ date: 2020-02-05 08:00:00
 
 ## <center>Arduino IDE</center>
 
->资源关键词：<font color="blue">**Arduino**</font>
+>下载入口：<font color="blue">**[Arduino入口链接](https://c-t.work/s/7a477d87db9743)**</font>
 
 进入链接后位于 Arduino 目录下，选择需要的资源进行下载：
 
@@ -152,7 +148,7 @@ date: 2020-02-05 08:00:00
 
 ## <center>Matlab</center>
 
->资源关键词：<font color="blue">**Matlab**</font>
+>下载入口：<font color="blue">**[Matlab入口链接](https://c-t.work/s/73ff83ce9e9c4e)**</font>
 
 进入链接后位于 Matlab 目录下，选择需要的资源进行下载：
 
@@ -160,7 +156,7 @@ date: 2020-02-05 08:00:00
 
 ## <center>实用小工具</center>
 
->资源关键词：<font color="blue">**小工具**</font>
+>下载入口：<font color="blue">**[小工具入口链接](https://c-t.work/s/591039589cad4e)**</font>
 
 进入链接后位于 小工具 目录下，选择需要的资源进行下载：
 
@@ -201,3 +197,4 @@ date: 2020-02-05 08:00:00
 
 - 2020/2/5：不限速下载站正式上线
 - 2020/2/6：添加资源提交功能
+- 2020/2/7：修改资源获取机制(下载链接可直接访问)
