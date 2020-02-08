@@ -72,6 +72,23 @@ date: 2020-02-05 08:00:00
 
 - [STM32CubeMX系列教程](http://www.mculover666.cn/posts/578764034/)
 
+## <center>Android+IoT专场</center>
+
+>下载入口：<font color="blue">**[Android入口链接](https://c-t.work/s/4658e45647934b)**</font>
+
+进入链接后位于 Android 目录下，选择需要的资源进行下载：
+
+- Android Studio安装包（最新）
+  - android-studio-ide-191.6010548-windows.exe
+- 乐鑫 ESP Touch jar包
+  - esptouch-v0.3.7.0.jar
+- OpenCV Android开发SDK包
+   - opencv-3.4.6-android-sdk.zip
+- MQTT Android开发SDK包
+  - org.eclipse.paho.client.mqttv3-1.2.0.jar
+
+感谢来自阿正啷个哩个啷（[b站](https://space.bilibili.com/265908761),[个人博客](http://wenzheng.club)）的分享！
+
 ## <center>Quartus II(Intel FPGA)</center>
 
 >下载入口：<font color="blue">**[Quartus入口链接](https://c-t.work/s/bfb5ddb03f0843)**</font>
@@ -101,6 +118,8 @@ date: 2020-02-05 08:00:00
   - vivado2019.1.zip
 - ISE系列
   - Xilinx_ISE_DS_14.7_1015_1.zip
+
+感谢来自zzy的分享！
 
 ## <center>gcc 工具链</center>
 
@@ -136,6 +155,8 @@ date: 2020-02-05 08:00:00
   - AD19.zip
 - AD19.1
   - Altium_Designer_19.1.8.iso
+
+感谢来自山外青衫的分享！
 
 ## <center>Cadence/Allegro(PCB)</center>
 
@@ -205,11 +226,6 @@ date: 2020-02-05 08:00:00
 有更好的资源分享？
 
 呐，点击此链接即可提交资源：[不限速下载站资源提交](https://shimo.im/forms/jxxJDpQX8TCJgvp6/fill)。
-
-诚挚感谢以下开发者分享的资源：
-
-- zzy（Vivado系列）
-- 山外青衫(Matlab系列和AD系列)
 
 # <center><i class="fa-fw fas fa-blog"></i> 更新日志</center>
 
