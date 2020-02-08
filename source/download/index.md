@@ -124,14 +124,18 @@ date: 2020-02-05 08:00:00
 
 ## <center>Altium(PCB)</center>
 
->下载入口：<font color="blue">**[Alitum入口链接](https://c-t.work/s/e2550cb17d1344)**</font>
+>下载入口：<font color="blue">**[Alitum入口链接](https://c-t.work/s/97548f3966264c)**</font>
 
 进入链接后位于 Altium 目录下，选择需要的资源进行下载：
 
 - AD9.4版本（最稳定）
   - AD9.4.rar
-- AD19（推荐）
+- AD16.1
+  - AD16.1.12.iso
+- AD19.0
   - AD19.zip
+- AD19.1
+  - Altium_Designer_19.1.8.iso
 
 ## <center>Cadence/Allegro(PCB)</center>
 
@@ -162,10 +166,11 @@ date: 2020-02-05 08:00:00
 
 ## <center>Matlab</center>
 
->下载入口：<font color="blue">**[Matlab入口链接](https://c-t.work/s/73ff83ce9e9c4e)**</font>
+>下载入口：<font color="blue">**[Matlab入口链接](https://c-t.work/s/a78b3cec2de648)**</font>
 
 进入链接后位于 Matlab 目录下，选择需要的资源进行下载：
 
+- R2016a_win64.iso
 - MATLAB 2018a_win64.zip
 
 ## <center>实用小工具</center>
@@ -204,6 +209,7 @@ date: 2020-02-05 08:00:00
 诚挚感谢以下开发者分享的资源：
 
 - zzy（Vivado系列）
+- 山外青衫(Matlab系列和AD系列)
 
 # <center><i class="fa-fw fas fa-blog"></i> 更新日志</center>
 
