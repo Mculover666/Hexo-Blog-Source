@@ -88,6 +88,20 @@ date: 2020-02-05 08:00:00
 - [【FPGA入门教程】（二）FPGA学习路线及开发流程](https://blog.csdn.net/Mculover666/article/details/80650037)
 - [【FPGA入门教程】（三） Quartus II 13.0软件安装及激活](https://blog.csdn.net/Mculover666/article/details/80650040)
 
+## <center>Vivado(Xilinx FPGA)</center>
+
+>下载入口：<font color="blue">**[Vivado入口链接](https://c-t.work/s/3078b873fa0740)**</font>
+
+进入链接后位于 Vivado 目录下，选择需要的资源进行下载：
+
+- Vivado系列
+  - vivado2017.4.zip
+  - vivado2018.2.zip
+  - vivado2018.3.zip
+  - vivado2019.1.zip
+- ISE系列
+  - Xilinx_ISE_DS_14.7_1015_1.zip
+
 ## <center>gcc 工具链</center>
 
 >下载入口：<font color="blue">**[gcc入口链接](https://c-t.work/s/4f8df085b5f542)**</font>
@@ -187,14 +201,13 @@ date: 2020-02-05 08:00:00
 
 呐，点击此链接即可提交资源：[不限速下载站资源提交](https://shimo.im/forms/jxxJDpQX8TCJgvp6/fill)。
 
-# <center><i class="fa-fw fas fa-question"></i> 遇到问题</center>
+诚挚感谢以下开发者分享的资源：
 
-如果你在本下载站下载资源时遇到问题，或者对资源有疑问，又或是对本站的建议，都可以加入博主的QQ交流群『<font color="blue">**AIoT实验室**</font>』：
-
-![AIoT-Lab](http://mculover666.cn/blog/20200204/M0Lwi8ChUI4a.jpg?imageslim)
+- zzy（Vivado系列）
 
 # <center><i class="fa-fw fas fa-blog"></i> 更新日志</center>
 
 - 2020/2/5：不限速下载站正式上线
 - 2020/2/6：添加资源提交功能
 - 2020/2/7：修改资源获取机制(下载链接可直接访问)
+- 2020/2/8：添加Vivado多个常用版本
