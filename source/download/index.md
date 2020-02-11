@@ -28,7 +28,7 @@ date: 2020-02-05 08:00:00
 
 ## <center>Keil-MDK</center>
 
->下载入口：<font color="blue">**[MDK入口链接](https://c-t.work/s/7b5702e4592145 )**</font>
+>下载入口：<font color="blue">**[MDK入口链接](https://c-t.work/s/4812150345644d )**</font>
 
 进入链接后位于 Keil-MDK 目录下，选择需要的资源进行下载：
 
@@ -89,6 +89,10 @@ date: 2020-02-05 08:00:00
 
 感谢来自阿正啷个哩个啷（[b站](https://space.bilibili.com/265908761),[个人博客](http://wenzheng.club)）的分享！
 
+参考视频教程：
+
+- [7天Java0基础速成IoT Android APP开发](https://www.bilibili.com/video/av88068983)
+
 ## <center>Quartus II(Intel FPGA)</center>
 
 >下载入口：<font color="blue">**[Quartus入口链接](https://c-t.work/s/bfb5ddb03f0843)**</font>
@@ -143,7 +147,7 @@ date: 2020-02-05 08:00:00
 
 ## <center>Altium(PCB)</center>
 
->下载入口：<font color="blue">**[Alitum入口链接](https://c-t.work/s/97548f3966264c)**</font>
+>下载入口：<font color="blue">**[Alitum入口链接](https://c-t.work/s/a8252276e63747)**</font>
 
 进入链接后位于 Altium 目录下，选择需要的资源进行下载：
 
