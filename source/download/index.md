@@ -147,7 +147,7 @@ date: 2020-02-05 08:00:00
 
 ## <center>Altium(PCB)</center>
 
->下载入口：<font color="blue">**[Alitum入口链接](https://c-t.work/s/a8252276e63747)**</font>
+>下载入口：<font color="blue">**[Alitum入口链接](https://c-t.work/s/644b4d3f216e4c)**</font>
 
 进入链接后位于 Altium 目录下，选择需要的资源进行下载：
 
@@ -159,8 +159,10 @@ date: 2020-02-05 08:00:00
   - AD19.zip
 - AD19.1
   - Altium_Designer_19.1.8.iso
+- AD20.0
+  - Altium Designer 20.0.1.rar
 
-感谢来自山外青衫的分享！
+感谢来自山外青衫、XIAO李([个人博客](https://liai.club/))的分享！
 
 ## <center>Cadence/Allegro(PCB)</center>
 
@@ -200,7 +202,7 @@ date: 2020-02-05 08:00:00
 
 ## <center>实用小工具</center>
 
->下载入口：<font color="blue">**[小工具入口链接](https://c-t.work/s/591039589cad4e)**</font>
+>下载入口：<font color="blue">**[小工具入口链接](https://c-t.work/s/81f44a7c217d49)**</font>
 
 进入链接后位于 小工具 目录下，选择需要的资源进行下载：
 
@@ -219,11 +221,16 @@ date: 2020-02-05 08:00:00
   - PCtoLCD2002.zip
 - TFTP传输工具
   - Tftpd64.zip
+- 终端工具
+  - putty（ssh远程登录工具）
+  - winscp（基于ssh的远程文件传输工具）
 
 参考使用教程：
 
 - [【玩转嵌入式屏幕显示】（四）TFT-LCD屏幕显示字符（使用PCtoLCD2002取模）](https://blog.csdn.net/Mculover666/article/details/95615030)
 - [【玩转嵌入式屏幕显示】（五）TFT-LCD屏幕显示图片（使用Image2LCD取模）](https://blog.csdn.net/mculover666/article/details/95727736)
+
+感谢来自XIAO李([个人博客](https://liai.club/))的分享！
 
 # <center><i class="fa-fw fas fa-upload"></i> 提交资源</center>
 
@@ -237,3 +244,4 @@ date: 2020-02-05 08:00:00
 - 2020/2/6：添加资源提交功能
 - 2020/2/7：修改资源获取机制(下载链接可直接访问)
 - 2020/2/8：添加Vivado多个常用版本
+- 2020/2/11：添加Android资源、AD20资源、putty、winscp
