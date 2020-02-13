@@ -193,7 +193,7 @@ date: 2020-02-05 08:00:00
 
 ## <center>Matlab</center>
 
->下载入口：<font color="blue">**[Matlab入口链接](https://c-t.work/s/a78b3cec2de648)**</font>
+>下载入口：<font color="blue">**[Matlab入口链接](https://c-t.work/s/61b645d61f3147)**</font>
 
 进入链接后位于 Matlab 目录下，选择需要的资源进行下载：
 
