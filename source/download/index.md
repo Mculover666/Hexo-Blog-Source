@@ -93,6 +93,15 @@ date: 2020-02-05 08:00:00
 
 - [7天Java0基础速成IoT Android APP开发](https://www.bilibili.com/video/av88068983)
 
+## <center>Matlab</center>
+
+>下载入口：<font color="blue">**[Matlab入口链接](https://c-t.work/s/771ab18029cb4b)**</font>
+
+进入链接后位于 Matlab 目录下，选择需要的资源进行下载：
+
+- R2016a_win64.iso
+- MATLAB 2018a_win64.zip
+
 ## <center>Quartus II(Intel FPGA)</center>
 
 >下载入口：<font color="blue">**[Quartus入口链接](https://c-t.work/s/bfb5ddb03f0843)**</font>
@@ -190,15 +199,6 @@ date: 2020-02-05 08:00:00
 进入链接后位于 Arduino 目录下，选择需要的资源进行下载：
 
 - arduino-1.8.10-windows.exe
-
-## <center>Matlab</center>
-
->下载入口：<font color="blue">**[Matlab入口链接](https://c-t.work/s/fa7545dd5d7f4e)**</font>
-
-进入链接后位于 Matlab 目录下，选择需要的资源进行下载：
-
-- R2016a_win64.iso
-- MATLAB 2018a_win64.zip
 
 ## <center>实用小工具</center>
 
