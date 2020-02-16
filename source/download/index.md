@@ -156,7 +156,7 @@ date: 2020-02-05 08:00:00
 
 ## <center>Altium(PCB)</center>
 
->下载入口：<font color="blue">**[Alitum入口链接](https://c-t.work/s/644b4d3f216e4c)**</font>
+>下载入口：<font color="blue">**[Alitum入口链接](https://c-t.work/s/054fb290410249)**</font>
 
 进入链接后位于 Altium 目录下，选择需要的资源进行下载：
 
