@@ -95,12 +95,22 @@ date: 2020-02-05 08:00:00
 
 ## <center>Matlab</center>
 
->下载入口：<font color="blue">**[Matlab入口链接](https://c-t.work/s/771ab18029cb4b)**</font>
+>下载入口：<font color="blue">**[Matlab入口链接](https://c-t.work/s/ec9832f1a4414c)**</font>
 
 进入链接后位于 Matlab 目录下，选择需要的资源进行下载：
 
 - R2016a_win64.iso
 - MATLAB 2018a_win64.zip
+
+由于此资源较大，需要注意以下事项：
+
+1. 尽量使用Chrome浏览器或者迅雷下载，否则会出现下载一半无法下载的问题！
+2. 下载过程尽量不要做别的事！
+3. 下载有问题后请不要频繁点击，隔1-3min后再试，否则会被服务器误认为是爬虫！
+
+![迅雷下载方法](http://mculover666.cn/blog/20200217/T3udC1IIhHNR.png?imageslim)
+
+![迅雷下载效果](http://mculover666.cn/blog/20200217/YABbeygH2ngO.png?imageslim)
 
 ## <center>Quartus II(Intel FPGA)</center>
 
