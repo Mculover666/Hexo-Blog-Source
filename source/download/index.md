@@ -28,7 +28,7 @@ date: 2020-02-05 08:00:00
 
 ## <center>Keil-MDK</center>
 
->下载入口：<font color="blue">**[MDK入口链接](https://c-t.work/s/4812150345644d )**</font>
+>下载入口：<font color="blue">**[MDK软件+主题配置文件入口链接](https://c-t.work/s/0a06ed18e99445)**</font>
 
 进入链接后位于 Keil-MDK 目录下，选择需要的资源进行下载：
 
@@ -36,15 +36,32 @@ date: 2020-02-05 08:00:00
   - MDK524a.exe
   - MDK527.exe
   - MDK528.exe(推荐)
+  - MDK529.exe(最新)
 - 仿Sublime主题
   - Keil Sublime Theme.zip
-- 芯片包
-  - Keil.STM32F1xx_DFP.2.3.0.pack
-  - Keil.STM32F4xx_DFP.2.13.0.pack
-  - Keil.STM32F7xx_DFP.2.12.0.pack
-  - Keil.STM32L0xx_DFP.2.0.1.pack
-  - Keil.STM32L4xx_DFP.2.2.0.pack
-  - Keil.STM32G0xx_DFP.1.1.0.pack
+
+>下载入口：<font color="blue">**[MDK芯片包入口链接](https://c-t.work/s/28f4bdb8d94242)**</font>
+
+进入链接后位于 Keil-MDK-Pack 目录下，选择需要的资源进行下载，如未进行特殊备注，只需要MDK5版本和STM32CubeMX5版本即可：
+
+- Keil.STM32F0xx_DFP.2.0.0.pack
+- Keil.STM32F1xx_DFP.2.3.0.pack
+- Keil.STM32F2xx_DFP.2.9.0.pack
+- Keil.STM32F3xx_DFP.2.1.0.pack
+- Keil.STM32F4xx_DFP.2.14.0.pack
+- Keil.STM32F7xx_DFP.2.12.0.pack
+- Keil.STM32G0xx_DFP.1.2.0.pack
+- Keil.STM32G4xx_DFP.1.1.0.pack
+- Keil.STM32H7xx_DFP.2.3.1.pack
+- Keil.STM32H7xx_DFP.2.4.0.pack（需要STM32CubeMX V5.5.0支持）
+- Keil.STM32L0xx_DFP.2.0.1.pack
+- Keil.STM32L1xx_DFP.1.2.0.pack
+- Keil.STM32L4xx_DFP.2.2.0.pack
+- Keil.STM32L4xx_DFP.2.3.0.pack（需要STM32CubeMX V5.5.0支持）
+- Keil.STM32L5xx_DFP.1.1.0.pack（推荐使用MDK 5.29）
+- Keil.STM32MP1xx_DFP.1.2.0.pack
+- Keil.STM32W1xx_DFP.1.0.0.pac
+- Keil.STM32WBxx_DFP.1.0.0.pack
 
 参考安装教程：
 
@@ -78,6 +95,8 @@ date: 2020-02-05 08:00:00
 
 进入链接后位于 Android 目录下，选择需要的资源进行下载：
 
+- Java环境
+  - jdk-8u212-windows-x64.exe
 - Android Studio安装包（最新）
   - android-studio-ide-191.6010548-windows.exe
 - 乐鑫 ESP Touch jar包
@@ -104,13 +123,12 @@ date: 2020-02-05 08:00:00
 
 由于此资源较大，需要注意以下事项：
 
-1. 尽量使用Chrome浏览器或者迅雷下载，否则会出现下载一半无法下载的问题！
+1. 尽量使用Chrome浏览器或者复制链接到迅雷下载(如下图)，否则会出现下载一半无法下载的问题！
 2. 下载过程尽量不要做别的事！
 3. 下载有问题后请不要频繁点击，隔1-3min后再试，否则会被服务器误认为是爬虫！
+4. 这是两个不同的版本，选择一个版本下载即可！
 
 ![迅雷下载方法](http://mculover666.cn/blog/20200217/T3udC1IIhHNR.png?imageslim)
-
-![迅雷下载效果](http://mculover666.cn/blog/20200217/YABbeygH2ngO.png?imageslim)
 
 ## <center>Quartus II(Intel FPGA)</center>
 
@@ -255,3 +273,4 @@ date: 2020-02-05 08:00:00
 - 2020/2/7：修改资源获取机制(下载链接可直接访问)
 - 2020/2/8：添加Vivado多个常用版本
 - 2020/2/11：添加Android资源、AD20资源、putty、winscp
+- 2020/2/17：添加全系列MDK芯片包，添加MDK5.29
