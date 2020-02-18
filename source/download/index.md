@@ -114,7 +114,7 @@ date: 2020-02-05 08:00:00
 
 ## <center>Matlab</center>
 
->下载入口：<font color="blue">**[Matlab入口链接](https://c-t.work/s/ec9832f1a4414c)**</font>
+>下载入口：<font color="blue">**[Matlab入口链接](https://c-t.work/s/739f8a13f4514e)**</font>
 
 进入链接后位于 Matlab 目录下，选择需要的资源进行下载：
 
@@ -132,7 +132,7 @@ date: 2020-02-05 08:00:00
 
 ## <center>Quartus II(Intel FPGA)</center>
 
->下载入口：<font color="blue">**[Quartus入口链接](https://c-t.work/s/739f8a13f4514e)**</font>
+>下载入口：<font color="blue">**[Quartus入口链接](https://c-t.work/s/bfb5ddb03f0843)**</font>
 
 进入链接后位于 Quartus 目录下，选择需要的资源进行下载：
 
