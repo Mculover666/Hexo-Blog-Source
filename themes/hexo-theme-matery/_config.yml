@@ -71,17 +71,20 @@ dream:
 # 是否在首页显示音乐.
 music:
   enable: true
-  showTitle: true
-  title: 来点BGM
-  fixed: false # 开启吸底模式
-  autoplay: false # 是否自动播放
+  title: #非吸底模式有效
+    enable: true
+    show: 来点BGM
+  server: netease   #require	music platform: netease, tencent, kugou, xiami, baidu
+  type: playlist	#require song, playlist, album, search, artist
+  id: 2821191017     #require	song id / playlist id / album id / search keyword
+  fixed: false       # 开启吸底模式
+  autoplay: false   # 是否自动播放
   theme: '#42b983'
-  loop: 'all' # 音频循环播放, 可选值: 'all', 'one', 'none'
-  order: 'list' # 音频循环顺序, 可选值: 'list', 'random'
-  preload: 'auto' # 预加载，可选值: 'none', 'metadata', 'auto'
-  volume: 0.7 # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
-  listFolded: false # 列表默认折叠
-  listMaxHeight: #列表最大高度
+  loop: 'all'       # 音频循环播放, 可选值: 'all', 'one', 'none'
+  order: 'list'   # 音频循环顺序, 可选值: 'list', 'random'
+  preload: 'auto'   # 预加载，可选值: 'none', 'metadata', 'auto'
+  volume: 0.7       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
+  listFolded: false  # 列表默认折叠
 
 # Whether to display the videos.
 # 是否在首页显示视频.
@@ -107,7 +110,6 @@ recommend:
   useConfig: false # 是否使用配置文件, 在 _data/recommends.json 下配置推荐文章, false则会走主题配置的 top 属性
   # useConfig 使用方式: 将主题 hexo-theme-matery/source/_data/recommends.json 移动到 my-blog/source/_data/下修改配置即可
 
-
 # Configure website favicon and LOGO
 # 配置网站favicon和网站LOGO
 favicon: /favicon.png
@@ -122,6 +124,7 @@ indexbtn:
   icon: fas fa-download
   url: /download
 
+
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
@@ -135,6 +138,7 @@ socialLink:
   zhihu: https://www.zhihu.com/people/wang-shi-wei-67-38/activities
   rss: true
 
+
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # You can add `toc: false` to the Front-matter of a post to turn off the TOC.
 # 是否激活文章 TOC 功能，并配置TOC支持选中哪些标题类型，这是全局配置。
@@ -147,7 +151,7 @@ toc:
 
 # 代码块相关
 code:
-  lang: false # 代码块是否显示名称
+  lang: true # 代码块是否显示名称
   copy: true # 代码块是否可复制
   shrink: true # 代码块是否可以收缩
   break: false # 代码是否折行
@@ -158,6 +162,7 @@ reward:
   title: 你的赏识是我前进的动力
   wechat: /medias/reward/we-chat.png
   alipay: /medias/reward/alipay.png
+
 
 # Whether to activate the copyright information of the blog and author when copying the post content.
 # minCharNumber: Approve copyright information by copying at least how many characters.
@@ -186,7 +191,7 @@ postInfo:
   update: false # 更新日期
   wordCount: false # 文章字数统计
   totalCount: true # 站点总文章字数
-  min2read: true # 文章阅读时长
+  min2read: false # 文章阅读时长
   readCount: true # 文章阅读次数
 
 # Whether to activate the 'love' effect of clicking on the page.
@@ -201,49 +206,51 @@ profile:
     career: 一个喜欢玩板子的码农
     introduction: 凭着与生俱来的兴趣，专注于嵌入式软件领域开发。
 
+
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的项目"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myProjects:
   enable: true
   data:
-    SerialAssistant:
-        icon: fas fa-file-alt
-        iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
-        url: https://github.com/Mculover666/SerialAssistant
-        desc: 一个使用C#编写的串口助手工具
-    TencentOS-tiny:
-        icon: fas fa-file-alt
+    hexo-theme-matery:
+      icon: fas fa-file-alt
+      iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
+      url: http://github.com/blinkfox/hexo-theme-matery
+      desc: This is a Hexo blog theme with 'Material Design' and responsive design.
+    Fenix:
+        icon: fas fa-database
         iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
-        url: https://github.com/Mculover666/TencentOS-tiny
-        desc: 腾讯物联网终端操作系统
-    rt-thread:
+        url: https://github.com/blinkfox/fenix
+        desc: 这是 Spring Data JPA 复杂或动态 SQL 查询的扩展库。
+    typora-vue-theme:
         icon: fas fa-file-alt
         iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
-        url: https://github.com/Mculover666/rt-thread
-        desc: 小而美的国产物联网操作系统
+        url: https://github.com/blinkfox/typora-vue-theme
+        desc: This is a typora theme inspired by Vue document style.
+
 # config my skills informations in about page.
 # If you don't want to display this `My Skills` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的技能"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 mySkills:
   enable: true
   data:
-    C:
+    Java:
       background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
       percent: 85%
-    Java:
+    JavaScript:
       background: 'linear-gradient(to right, #9900FF 0%, #CC66FF 100%)'
       percent: 80%
-    Python:
+    HTML5:
       background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
       percent: 80%
-    STM32:
+    CSS:
       background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
-      percent: 85%
-    RTOS:
+      percent: 70%
+    SQL:
       background: 'linear-gradient(to right, #4CAF50 0%, #81C784 100%)'
       percent: 90%
-    Linux:
+    程序设计:
       background: 'linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)'
       percent: 75%
 
@@ -252,8 +259,10 @@ mySkills:
 # 在“关于”页面配置"我的相册"图片，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myGallery:
   enable: true
-  data:    
-    - /medias/myself.jpg
+  data:
+    - /medias/featureimages/0.jpg
+    - /medias/featureimages/1.jpg
+    - /medias/featureimages/2.jpg
 
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件
@@ -291,6 +300,7 @@ disqus:
 livere:
   enable: true
   uid: MTAyMC80Njg0OS8yMzM1MA
+
 
 # The configuration of the Valine comment module is not activated by default.
 # To use it, activate the configuration item and set appId and appKey.
@@ -344,6 +354,7 @@ baiduAnalytics:
   enable: true
   id: 6e1efa0988723a1db6356535db2ae6bd
 
+
 # 百度搜索资源平台提交链接
 baiduPush: true
 
@@ -381,6 +392,7 @@ libs:
     tocbot: /libs/tocbot/tocbot.min.js
     canvas_nest: /libs/background/canvas-nest.js
     ribbon: /libs/background/ribbon.min.js
+    ribbonRefresh: /libs/background/ribbon-refresh.min.js
     ribbon_dynamic: /libs/background/ribbon-dynamic.js
     instantpage: /libs/instantpage/instantpage.js
 
@@ -460,7 +472,7 @@ ribbon:
   size: 150 # 彩带大小, 默认: 90.
   alpha: 0.6 # 彩带透明度 (0 ~ 1), 默认: 0.6.
   zIndex: -1 # 背景的z-index属性，css属性用于控制所在层的位置, 默认: -1.
-  click_to_change: false  # 设置是否每次点击都更换彩带.
+  clickChange: false  # 设置是否每次点击都更换彩带.
 
 # 背景动态彩带.
 ribbon_dynamic:
@@ -489,6 +501,7 @@ subtitle:
   sub1: ARM | STM32 | FPGA
   sub2: RTOS | Liunx | IoT
 
+
 # 手机二级菜单.
 navMenu:
   mleft: false # 二级侧栏子菜单是否对齐左边
@@ -508,3 +521,15 @@ icp:
   enable: true
   url: http://www.beian.miit.gov.cn # 备案链接  
   text: 陇ICP备19002222号 # 备案信息
+
+
+# CDN访问加速 
+# 第一次使用本功能，一定要先配置url，再`hexo cl&&hexo g&&hexo d`部署到GitHub的仓库，注意！必须是GitHub的仓库！
+# 如果必须要使用国内的coding或者gittee，可以采用双部署，同时将网站部署到两个仓库（其中一个必须是GitHub的仓库）
+# URL配置规则（例子如下）： https://cdn.jsdelivr.net/gh/你的GitHub用户名/你的仓库名
+# 如果想关闭此功能，将 url地址 注释或删除即可！
+#
+# 注：配置了此项，就代表着本地调试的时候，网站依然会去GitHub请求资源（原来的资源），本地调试的时候记得将 此项配置 注释或者删除掉
+# 更多关于访问速度优化，请查看：https://blog.sky03.cn/posts/42790.html
+jsDelivr:
+  url: # https://cdn.jsdelivr.net/gh/Mculover666/mculover666.github.io

@@ -29,17 +29,17 @@
 
     // keywords.
     var keyWords = config.keywords ? config.keywords : config.title;
-
-    if (page.keywords){
+    if (page.keywords) {
         keyWords = page.keywords;
-    }
-    else {
-        keyWords = title ? title  + ', ' + keyWords : keyWords;
+    } else {
+    	keyWords = title ? title  + ', ' + keyWords : keyWords;
     }
 
     // description.
     var description = null;
-    if (page.hasOwnProperty('__post') && page.__post) {
+    if (page.summary) {
+        description = page.summary;
+    } else if (page.hasOwnProperty('__post') && page.__post) {
         description = strip_html(page.content).substring(0, 120);
     }
     description = description ? description : pageTitle;
@@ -75,16 +75,16 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title><%= pageTitle %></title>
-    <link rel="icon" type="<%= iconType %>" href="<%- theme.favicon %>">
+    <link rel="icon" type="<%= iconType %>" href="<%- theme.jsDelivr.url %><%- theme.favicon %>">
 
-    <link rel="stylesheet" type="text/css" href="<%- theme.libs.css.fontAwesome %>">
-    <link rel="stylesheet" type="text/css" href="<%- theme.libs.css.materialize %>">
-    <link rel="stylesheet" type="text/css" href="<%- theme.libs.css.aos %>">
-    <link rel="stylesheet" type="text/css" href="<%- theme.libs.css.animate %>">
-    <link rel="stylesheet" type="text/css" href="<%- theme.libs.css.lightgallery %>">
-    <link rel="stylesheet" type="text/css" href="/css/matery.css">
-    <link rel="stylesheet" type="text/css" href="/css/my.css">
-    
-    <script src="<%- theme.libs.js.jquery %>"></script>
+    <link rel="stylesheet" type="text/css" href="<%- theme.jsDelivr.url %><%- theme.libs.css.fontAwesome %>">
+    <link rel="stylesheet" type="text/css" href="<%- theme.jsDelivr.url %><%- theme.libs.css.materialize %>">
+    <link rel="stylesheet" type="text/css" href="<%- theme.jsDelivr.url %><%- theme.libs.css.aos %>">
+    <link rel="stylesheet" type="text/css" href="<%- theme.jsDelivr.url %><%- theme.libs.css.animate %>">
+    <link rel="stylesheet" type="text/css" href="<%- theme.jsDelivr.url %><%- theme.libs.css.lightgallery %>">
+    <link rel="stylesheet" type="text/css" href="<%- theme.jsDelivr.url %>/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="<%- theme.jsDelivr.url %>/css/my.css">
+
+    <script src="<%- theme.jsDelivr.url %><%- theme.libs.js.jquery %>"></script>
     
 </head>

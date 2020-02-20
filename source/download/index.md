@@ -114,12 +114,14 @@ date: 2020-02-05 08:00:00
 
 ## <center>Matlab</center>
 
->下载入口：<font color="blue">**[Matlab入口链接](https://c-t.work/s/739f8a13f4514e)**</font>
+>下载入口：<font color="blue">**[Matlab入口链接](https://c-t.work/s/66721a3466d74f)**</font>
 
 进入链接后位于 Matlab 目录下，选择需要的资源进行下载：
 
 - R2016a_win64.iso
 - MATLAB 2018a_win64.zip
+
+参考教程：[Matlab2018安装教程](http://www.mculover666.cn/posts/2806899914/)。
 
 由于此资源较大，需要注意以下事项：
 

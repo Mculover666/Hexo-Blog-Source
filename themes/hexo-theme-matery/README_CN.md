@@ -255,25 +255,6 @@ menu:
         icon: fas fa-image
 ```
 
-### 添加emoji表情支持（可选的）
-
-本主题新增了对`emoji`表情的支持，使用到了 [hexo-filter-github-emojis](https://npm.taobao.org/package/hexo-filter-github-emojis) 的 Hexo 插件来支持 `emoji`表情的生成，把对应的`markdown emoji`语法（`::`,例如：`:smile:`）转变成会跳跃的`emoji`表情，安装命令如下：
-
-```bash
-npm install hexo-filter-github-emojis --save
-```
-
-在 Hexo 根目录下的 `_config.yml` 文件中，新增以下的配置项：
-
-```yaml
-githubEmojis:
-  enable: true
-  className: github-emoji
-  inject: true
-  styles:
-  customEmojis:
-```
-
 执行 `hexo clean && hexo g` 重新生成博客文件，然后就可以在文章中对应位置看到你用`emoji`语法写的表情了。
 
 ### 代码高亮
@@ -313,7 +294,7 @@ search:
   field: post
 ```
 
-### 中文链接转拼音（可选的）
+### 中文链接转拼音（建议安装）
 
 如果你的文章名称是中文的，那么 Hexo 默认生成的永久链接也会有中文，这样不利于 `SEO`，且 `gitment` 评论对中文链接也不支持。我们可以用 [hexo-permalink-pinyin](https://github.com/viko16/hexo-permalink-pinyin) Hexo 插件使在生成文章时生成中文拼音的永久链接。
 
@@ -333,7 +314,7 @@ permalink_pinyin:
 
 > **注**：除了此插件外，[hexo-abbrlink](https://github.com/rozbo/hexo-abbrlink) 插件也可以生成非中文的链接。
 
-### 文章字数统计插件（可选的）
+### 文章字数统计插件（建议安装）
 
 如果你想要在文章中显示文章字数、阅读时长信息，可以安装 [hexo-wordcount](https://github.com/willin/hexo-wordcount)插件。
 
@@ -343,7 +324,7 @@ permalink_pinyin:
 npm i --save hexo-wordcount
 ```
 
-然后只需在本主题下的 `_config.yml` 文件中，激活以下配置项即可：
+然后只需在本主题下的 `_config.yml` 文件中，将各个文章字数相关的配置激活即可：
 
 ```yaml
 postInfo:
@@ -351,8 +332,27 @@ postInfo:
   update: false
   wordCount: false # 设置文章字数统计为 true.
   totalCount: false # 设置站点文章总字数统计为 true.
-  min2read: true
-  readCount: true
+  min2read: false # 阅读时长.
+  readCount: false # 阅读次数.
+```
+
+### 添加emoji表情支持（可选的）
+
+本主题新增了对`emoji`表情的支持，使用到了 [hexo-filter-github-emojis](https://npm.taobao.org/package/hexo-filter-github-emojis) 的 Hexo 插件来支持 `emoji`表情的生成，把对应的`markdown emoji`语法（`::`,例如：`:smile:`）转变成会跳跃的`emoji`表情，安装命令如下：
+
+```bash
+npm install hexo-filter-github-emojis --save
+```
+
+在 Hexo 根目录下的 `_config.yml` 文件中，新增以下的配置项：
+
+```yaml
+githubEmojis:
+  enable: true
+  className: github-emoji
+  inject: true
+  styles:
+  customEmojis:
 ```
 
 ### 添加 RSS 订阅支持（可选的）
@@ -490,7 +490,8 @@ music:
 | summary    | 无                          | 文章摘要，自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要 |
 | categories | 无                          | 文章分类，本主题的分类表示宏观上大的分类，只建议一篇文章一个分类 |
 | tags       | 无                          | 文章标签，一篇文章可以多个标签                              |
-| reprintPolicy       | cc_by                          | 文章转载规则， 可以是 cc_by, cc_by_nd, cc_by_sa, cc_by_nc, cc_by_nc_nd, cc_by_nc_sa, cc0, noreprint 或 pay 中的一个 |
+| keywords   | 文章标题                     | 文章关键字，SEO 时需要                              |
+| reprintPolicy | cc_by                    | 文章转载规则， 可以是 cc_by, cc_by_nd, cc_by_sa, cc_by_nc, cc_by_nc_nd, cc_by_nc_sa, cc0, noreprint 或 pay 中的一个 |
 
 > **注意**:
 > 1. 如果 `img` 属性不填写的话，文章特色图会根据文章标题的 `hashcode` 的值取余，然后选取主题中对应的特色图片，从而达到让所有文章都的特色图**各有特色**。
@@ -599,6 +600,14 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 
 ## 版本记录
 
+- v1.2.2
+  - 新增了自定义文章 `keywords` 的功能；
+  - 新增静态彩带点击切换的功能和配置；
+  - 将文章字数统计、彩带和站点运行时间等功能默认设置为 `false`；
+  - 修改了文章的 `description` 的 meta 属性优先读取文章的 `summary` 属性；
+  - 修改了文章标题的 HTML 标签，从 `div` 改成了 `h1` 标题；
+  - 修改了页脚年份显示不正确的问题；
+  - 去掉了站点运行时间中多余的 `setTimeout` 代码；
 - v1.2.1
   - 新增了 TOC 的展开目录层级设置和滚动条功能，防止目录较多的时候目录溢出；
   - 修改了首页的展示方式为以前的模式；
