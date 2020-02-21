@@ -9,6 +9,8 @@ summary: 使用RT-Thread Studio打造
 date: 2020-02-20 18:05:56
 ---
 
+<iframe src="//player.bilibili.com/player.html?aid=90635321&cid=154783725&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 # 1. RT-Thread Studio
 RT-Thread Studio 是**一站式的 RT-Thread 开发工具**，通过简单易用的图形化配置系统以及丰富的软件包和组件资源，让物联网开发变得简单和高效。
 ![](https://img-blog.csdnimg.cn/20200202170325301.png#pic_center)
