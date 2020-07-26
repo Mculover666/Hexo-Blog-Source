@@ -218,6 +218,9 @@ int main(void)
   /* USER CODE END 3 */
 }
 ```
+
+>注意：STM32F1系列会报错找不到__HAL_TIM_SetCompare函数，解决方案啊：[STM32CubeMX生成F1的工程中提示找不到 __HAL_TIM_SetCompare 问题的解决方案](https://blog.csdn.net/Mculover666/article/details/104801386)。
+
 编译下载后可以看到舵机在0°-180°之间来回旋转：
 
 ![舵机角度动态调整效果](http://mculover666.cn/blog/20191205/ImBhKMzpWqKa.gif)

@@ -81,6 +81,27 @@ int fputc(int ch, FILE *stream)
 
 /* USER CODE END 1 */
 ```
+
+>注意：如果是STM32F1系列，上面这段代码不适用，请使用下面的代码：
+
+```c
+/* USER CODE BEGIN 1 */
+#if 1
+#include <stdio.h>
+
+int fputc(int ch, FILE *stream)
+{
+    /* 堵塞判断串口是否发送完成 */
+    while((USART1->SR & 0X40) == 0);
+
+    /* 串口发送完成，将该字符发送 */
+    USART1->DR = (uint8_t) ch;
+
+    return ch;
+}
+#endif
+/* USER CODE END 1 */
+```
 ## 测试printf
 在main函数中测试一下printf函数是否可以正常使用：
 ```c

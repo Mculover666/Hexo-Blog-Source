@@ -24,6 +24,9 @@ date: 2019-07-24 10:00:56
 ![mark](http://mculover666.cn/image/20190814/gubaOwmETp1w.png?imageslim)
 
 # 2.生成MDK工程
+
+>如果使用的是STM32F1系列，请先看这篇文章！！！（[STM32CubeMX生成F1的工程中造成 下载器无法下载 问题的解决方案](https://blog.csdn.net/Mculover666/article/details/104802410)）
+
 ## 选择芯片型号
 打开STM32CubeMX，打开MCU选择器：
 

@@ -170,6 +170,27 @@ nt main(void)
 
 ![OLED图片显示测试](http://mculover666.cn/blog/20191209/Ft0SI7xEEHuw.png?imageslim)
 
+
+# 5. 使用PCtoLCD2002取模设置
+
+## 对字符/汉字取模
+
+![](http://mculover666.cn/blog/20200323/XfNPDOkqtfnV.png?imageslim)
+
+![](http://mculover666.cn/blog/20200323/jlT6NYdhdsSS.png?imageslim)
+
+## 对图片取模
+
+![](http://mculover666.cn/blog/20200323/UYJb0lkD8lK8.png?imageslim)
+
+![](http://mculover666.cn/blog/20200323/p7U6xFbO468W.png?imageslim)
+
+![](http://mculover666.cn/blog/20200323/nCMmbNSAHQNN.png?imageslim)
+
+![](http://mculover666.cn/blog/20200323/PzdCabFaxGty.png?imageslim)
+
+![](http://mculover666.cn/blog/20200323/pncbQla4ntFd.png?imageslim)
+
 **<font color="#FF0000">更多精彩文章及资源，请关注我的微信公众号：『mculover666』。</font>**
 
 ![公众号](http://mculover666.cn/image/20190814/NQqt1eRxrl1K.png?imageslim)

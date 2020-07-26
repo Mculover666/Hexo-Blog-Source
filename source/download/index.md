@@ -1,14 +1,12 @@
 ---
-title: 不限速下载站
+title: 不限速镜像站
 type: download
-toc: false
-comment: false
-date: 2020-02-05 08:00:00
+date: 2020-04-20 08:00:00
 ---
 
 # <center><i class="far fa-heart fa-x"></i>  建站初衷</center>
 
-博主深受xx网盘之痛苦，就像单手开着法拉利却被限速40km/h的那种痛苦，遂揭竿而起，自费建立起“不限速下载站”，正如其名：
+博主深受xx网盘之痛苦，就像单手开着法拉利却被限速40km/h的那种痛苦，遂揭竿而起，自费建立起“不限速镜像站”，正如其名：
 
 不限速下载站致力于为开发者提供免费！不限速！的下载服务，下载速度只取决于你的网络！经多地实际测试，下载速度在5MB/s - 10MB/s范围。
 
@@ -16,19 +14,19 @@ date: 2020-02-05 08:00:00
 
 # <center><i class="fas fa-cloud-download-alt fa-x"></i> 下载说明</center>
 
-① 微信扫描下方二维码，关注公众号『<font color="blue">**Mculover666**</font>』
+① 微信扫描下方二维码，关注公众号『<font color="blue">**不限速下载站**</font>』
 
 ② 进入公众号，发送关键词 <font color="green">**密码**</font> 即可收到取件密码
 
 ③ 每个下载链接都有最大下载次数，到达后我会更换新的链接和密码，所以切勿直接收藏链接
 
-![](http://mculover666.cn/image/20190814/NQqt1eRxrl1K.png?imageslim)
+![](http://mculover666.cn/blog/20200302/iGi9VTlkwq3U.png?imageslim)
 
 # <center><i class="fa-fw fas fa-book-open"></i>  软件资源</center>
 
 ## <center>Keil-MDK</center>
 
->下载入口：<font color="blue">**[MDK软件+主题配置文件入口链接](https://c-t.work/s/0a06ed18e99445)**</font>
+>下载入口：<font color="blue">**[MDK软件+主题配置文件入口链接](https://c-t.work/s/c1a0f3f8266646)**</font>
 
 进入链接后位于 Keil-MDK 目录下，选择需要的资源进行下载：
 
@@ -40,7 +38,7 @@ date: 2020-02-05 08:00:00
 - 仿Sublime主题
   - Keil Sublime Theme.zip
 
->下载入口：<font color="blue">**[MDK芯片包入口链接](https://c-t.work/s/28f4bdb8d94242)**</font>
+>下载入口：<font color="blue">**[MDK芯片包入口链接](https://c-t.work/s/7b7078ede70043)**</font>
 
 进入链接后位于 Keil-MDK-Pack 目录下，选择需要的资源进行下载，如未进行特殊备注，只需要MDK5版本和STM32CubeMX5版本即可：
 
@@ -72,7 +70,7 @@ date: 2020-02-05 08:00:00
 
 ## <center>STM32CubeMX</center>
 
->下载入口：<font color="blue">**[STM32CubeMX入口链接](https://c-t.work/s/01299d2be3994b)**</font>
+>下载入口：<font color="blue">**[STM32CubeMX入口链接](https://c-t.work/s/42fe2b4584f948)**</font>
 
 进入链接后位于 STM32CubeMX 目录下，选择需要的资源进行下载：
 
@@ -91,7 +89,7 @@ date: 2020-02-05 08:00:00
 
 ## <center>Android+IoT专场</center>
 
->下载入口：<font color="blue">**[Android入口链接](https://c-t.work/s/dfe9c3e1c58542)**</font>
+>下载入口：<font color="blue">**[Android入口链接](https://c-t.work/s/60502a1bc92542)**</font>
 
 进入链接后位于 Android 目录下，选择需要的资源进行下载：
 
@@ -114,27 +112,34 @@ date: 2020-02-05 08:00:00
 
 ## <center>Matlab</center>
 
->下载入口：<font color="blue">**[Matlab入口链接](https://c-t.work/s/c79981bf91dd48)**</font>
+<font color = "red">**下载方法1：下载整个12.8G的文件，适合于网络较好的用户。**</font>
+
+>下载入口：<font color="blue">**[Matlab入口链接](https://c-t.work/s/b6fa846dc35446)**</font>
 
 进入链接后位于 Matlab 目录下，选择需要的资源进行下载：
 
-- R2016a_win64.iso
-- MATLAB 2018a_win64.zip
+- R2016a_win64.iso（7.64GB）
+- MATLAB 2018a_win64.zip（12.8GB）
 
 参考教程：[Matlab2018安装教程](http://www.mculover666.cn/posts/2806899914/)。
 
-由于此资源较大，需要注意以下事项：
+<font color = "red">**下载方法2：分为4个单独的文件下载，适合于网络较差的用户。**</font>
+>下载入口：<font color="blue">**[Matlab分卷安装包入口链接](https://c-t.work/s/9073922f2afa4c)**</font>
 
-1. 尽量使用Chrome浏览器或者复制链接到迅雷下载(如下图)，否则会出现下载一半无法下载的问题！
-2. 下载过程尽量不要做别的事！
-3. 下载有问题后请不要频繁点击，隔1-3min后再试，否则会被服务器误认为是爬虫！
-4. 这是两个不同的版本，选择一个版本下载即可！
+进入链接后位于 Matlab 目录下，选择需要的资源进行下载：
 
-![迅雷下载方法](http://mculover666.cn/blog/20200217/T3udC1IIhHNR.png?imageslim)
+- MATLAB 2018a_win64.z01（4GB）
+- MATLAB 2018a_win64.z02（4GB）
+- MATLAB 2018a_win64.z03（4GB)
+- MATLAB 2018a_win64.zip（682MB）
+
+4个文件都下载之后，使用 BandZIP 解压工具（[下载官网](http://www.bandisoft.com/)）进行解压，**保持四个文件在同一目录下，只解压 `MATLAB 2018a_win64.zip` 文件即可**。
+
+参考教程：[Matlab2018安装教程](http://www.mculover666.cn/posts/2806899914/)。
 
 ## <center>Quartus II(Intel FPGA)</center>
 
->下载入口：<font color="blue">**[Quartus入口链接](https://c-t.work/s/bfb5ddb03f0843)**</font>
+>下载入口：<font color="blue">**[Quartus入口链接](https://c-t.work/s/a25a9a7099a14f)**</font>
 
 进入链接后位于 Quartus 目录下，选择需要的资源进行下载：
 
@@ -148,21 +153,34 @@ date: 2020-02-05 08:00:00
 - [【FPGA入门教程】（二）FPGA学习路线及开发流程](https://blog.csdn.net/Mculover666/article/details/80650037)
 - [【FPGA入门教程】（三） Quartus II 13.0软件安装及激活](https://blog.csdn.net/Mculover666/article/details/80650040)
 
-## <center>Vivado(Xilinx FPGA)</center>
+## <center>Altium(PCB)</center>
 
->下载入口：<font color="blue">**[Vivado入口链接](https://c-t.work/s/3078b873fa0740)**</font>
+>下载入口：<font color="blue">**[Alitum入口链接](https://c-t.work/s/8e7691cd19ed49)**</font>
 
-进入链接后位于 Vivado 目录下，选择需要的资源进行下载：
+进入链接后位于 Altium 目录下，选择需要的资源进行下载：
 
-- Vivado系列
-  - vivado2017.4.zip
-  - vivado2018.2.zip
-  - vivado2018.3.zip
-  - vivado2019.1.zip
-- ISE系列
-  - Xilinx_ISE_DS_14.7_1015_1.zip
+- AD9.4版本（最稳定）
+  - AD9.4.rar
+- AD16.1
+  - AD16.1.12.iso
+- AD19.0
+  - AD19.zip
+- AD19.1
+  - Altium_Designer_19.1.8.iso
+- AD20.0
+  - AD 20.0.13.296.iso(最新)
 
-感谢来自zzy的分享！
+感谢来自山外青衫、XIAO李([个人博客](https://liai.club/))的分享！
+
+## <center>Multism</center>
+
+>下载入口：<font color="blue">**[Multism入口链接](https://c-t.work/s/3d4cd4929ca84d)**</font>
+
+进入链接后位于 Multism 目录下，选择需要的资源进行下载：
+
+- Multism 13.0版本（686.86MB）
+
+参考教程：[Multism 13 安装教程](http://www.mculover666.cn/posts/433364979/)。
 
 ## <center>gcc 工具链</center>
 
@@ -183,44 +201,6 @@ date: 2020-02-05 08:00:00
 - [在Windows上使用Mingw-W64进行C/C++开发（gcc工具链）](https://blog.csdn.net/Mculover666/article/details/89844460)
 - [安装和使用arm-linux-gcc交叉编译工具链开发S3C2440](https://blog.csdn.net/Mculover666/article/details/88044790)
 - [Linux下开发stm32（一）| 使用gcc-arm-none-eabi工具链编译](https://blog.csdn.net/Mculover666/article/details/84888539)
-
-## <center>Altium(PCB)</center>
-
->下载入口：<font color="blue">**[Alitum入口链接](https://c-t.work/s/8c11ce2eb51040)**</font>
-
-进入链接后位于 Altium 目录下，选择需要的资源进行下载：
-
-- AD9.4版本（最稳定）
-  - AD9.4.rar
-- AD16.1
-  - AD16.1.12.iso
-- AD19.0
-  - AD19.zip
-- AD19.1
-  - Altium_Designer_19.1.8.iso
-- AD20.0
-  - Altium Designer 20.0.1.rar
-
-感谢来自山外青衫、XIAO李([个人博客](https://liai.club/))的分享！
-
-## <center>Cadence/Allegro(PCB)</center>
-
->下载入口：<font color="blue">**[Cadence入口链接](https://c-t.work/s/325dc7ff34fa4a)**</font>
-
-进入链接后位于 Cadence 目录下，选择需要的资源进行下载：
-
-- 阿里狗破戒大师
-  - AleegoCrackMasterV3.1.0.zip
-- Cadence SPB OrCAD Allegro 16.6-2016 吴川斌的博客独家版
-  - Cadence SPB 16.6.ooxx
-  - Hotfix_SPB16.60.114_wint_1of1.exe
-- Cadence SPB OrCAD Allegro 17.2-2016 吴川斌的博客独家版（推荐）
-  - Cadence_SPB_17.2-2016_www.mr-wu.cn.7z
-  - Hotfix_SPB17.20.058_wint_1of1.exe
-
-参考安装教程：
-
-- [阿狸狗破戒大师-为攻城狮快乐的拉线而生](http://aligou.mr-wu.cn/#fourthPage)
 
 ## <center>Arduino IDE</center>
 
@@ -257,16 +237,10 @@ date: 2020-02-05 08:00:00
 
 参考使用教程：
 
-- [【玩转嵌入式屏幕显示】（四）TFT-LCD屏幕显示字符（使用PCtoLCD2002取模）](https://blog.csdn.net/Mculover666/article/details/95615030)
-- [【玩转嵌入式屏幕显示】（五）TFT-LCD屏幕显示图片（使用Image2LCD取模）](https://blog.csdn.net/mculover666/article/details/95727736)
+- [PCtoLCD2002使用方法）](https://blog.csdn.net/Mculover666/article/details/95615030)
+- [Image2LCD使用方法](https://blog.csdn.net/mculover666/article/details/95727736)
 
 感谢来自XIAO李([个人博客](https://liai.club/))的分享！
-
-# <center><i class="fa-fw fas fa-upload"></i> 提交资源</center>
-
-有更好的资源分享？
-
-呐，点击此链接即可提交资源：[不限速下载站资源提交](https://shimo.im/forms/jxxJDpQX8TCJgvp6/fill)。
 
 # <center><i class="fa-fw fas fa-blog"></i> 更新日志</center>
 
@@ -276,3 +250,6 @@ date: 2020-02-05 08:00:00
 - 2020/2/8：添加Vivado多个常用版本
 - 2020/2/11：添加Android资源、AD20资源、putty、winscp
 - 2020/2/17：添加全系列MDK芯片包，添加MDK5.29
+- 2020/2/28：更新Matlab分卷下载包
+- 2020/4/13：**所有链接恢复正常下载**
+- 2020/4/23: 去除Vivado和Cadence资源
